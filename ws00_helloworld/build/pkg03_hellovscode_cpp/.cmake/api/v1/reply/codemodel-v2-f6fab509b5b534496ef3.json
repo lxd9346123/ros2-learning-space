@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e93ed60a825cb9e1befd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pkg03_hellovscode_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hellovscode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hellovscode-57eb602823551b23c1f2.json",
+					"name" : "hellovscode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg03_hellovscode_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg03_hellovscode_cpp_uninstall-851deb8bfb5d27e356a5.json",
+					"name" : "pkg03_hellovscode_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7069598f74fa6a190f16.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/east/ros2-learning-space/ws00_helloworld/build/pkg03_hellovscode_cpp",
+		"source" : "/home/east/ros2-learning-space/ws00_helloworld/src/pkg03_hellovscode_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

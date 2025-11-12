@@ -1,0 +1,16 @@
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/lib/pkg03_hellovscode_cpp/hellovscode
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg03_hellovscode_cpp
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg03_hellovscode_cpp
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.sh
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/ament_prefix_path.dsv
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.sh
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/environment/path.dsv
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.bash
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.sh
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.zsh
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/local_setup.dsv
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.dsv
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/ament_index/resource_index/packages/pkg03_hellovscode_cpp
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig.cmake
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/cmake/pkg03_hellovscode_cppConfig-version.cmake
+/home/east/ros2-learning-space/ws00_helloworld/install/pkg03_hellovscode_cpp/share/pkg03_hellovscode_cpp/package.xml
