@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/humble/include/**"
+                "/opt/ros/humble/include/**",
+                "/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

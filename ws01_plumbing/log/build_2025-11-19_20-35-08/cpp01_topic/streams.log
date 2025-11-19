@@ -1,0 +1,54 @@
+[0.008s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic -- -j18 -l18
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.131s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.165s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.257s] -- Found base_interfaces_demo: 0.0.0 (/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.275s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.318s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.318s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/east/ros2-learning-space/ws01_plumbing/src/cpp01_topic/include>
+[0.318s] -- Configured cppcheck exclude dirs and/or files: 
+[0.318s] -- Added test 'lint_cmake' to check CMake code style
+[0.318s] -- Added test 'uncrustify' to check C / C++ code style
+[0.318s] -- Configured uncrustify additional arguments: 
+[0.318s] -- Added test 'xmllint' to check XML markup files
+[0.319s] -- Configuring done
+[0.330s] -- Generating done
+[0.334s] -- Build files have been written to: /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic
+[0.356s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.366s] [ 25%] Built target demo01_talker_str
+[0.366s] [ 37%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.369s] [ 62%] Built target demo02_listener_str
+[0.371s] [ 75%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[1.987s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[1.987s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:24:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<ListenerStu>)[m[K’
+[1.987s]    24 |     [01;31m[Krclcpp::spin(std::make_shared<ListenerStu>())[m[K;
+[1.987s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.987s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.987s]                  from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:1[m[K:
+[1.987s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.987s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.987s]       | [01;36m[K^~~~[m[K
+[1.987s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KListenerStu[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[1.987s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.987s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.987s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.988s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.988s]       | [01;36m[K^~~~[m[K
+[1.988s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KListenerStu[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[1.988s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.988s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.310s] [ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[3.451s] [ 87%] Built target demo03_talker_stu
+[3.730s] gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76：CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] 错误 1
+[3.730s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener_stu.dir/all] 错误 2
+[3.730s] gmake: *** [Makefile:146：all] 错误 2
+[3.732s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic -- -j18 -l18
