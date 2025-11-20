@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__traits.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__type_support.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/add_ints.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__builder.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__struct.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp"
   )
 
 

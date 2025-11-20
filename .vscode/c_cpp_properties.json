@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/include/**"
+                "/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/**",
+                "/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

@@ -3,7 +3,8 @@
   "output_dir": "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_typesupport_fastrtps_c/base_interfaces_demo",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl"
+    "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl",
+    "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -79,6 +80,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl",
+    "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/AddInts.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
