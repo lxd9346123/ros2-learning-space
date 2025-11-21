@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action -- -j18 -l18
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.048s] [ 50%] Built target demo02_action_client
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[1.720s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ProgressActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[1.721s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:24:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.721s]    24 | [01;35m[Kst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const Progress::Goal> goal_handle){
+[1.721s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.721s] 
+[1.721s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[1.721s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:33:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcancel_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.721s]    33 | [01;35m[KServerGoalHandle<Progress>> cancel_handle[m[K){
+[1.721s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.721s] 
+[2.648s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[2.755s] [100%] Built target demo01_action_server
+[2.765s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action -- -j18 -l18
+[2.766s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action
+[2.773s] -- Install configuration: ""
+[2.773s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[2.774s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[2.774s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[2.774s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[2.775s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[2.775s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[2.775s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[2.776s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp03_action

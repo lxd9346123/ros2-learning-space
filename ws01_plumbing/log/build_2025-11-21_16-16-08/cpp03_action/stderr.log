@@ -1,0 +1,6 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

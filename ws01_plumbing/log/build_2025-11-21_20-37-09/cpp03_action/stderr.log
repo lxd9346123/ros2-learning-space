@@ -1,0 +1,170 @@
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:48:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   48 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::Send_Goal(int)[m[K’:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   19 |     [01;31m[Kclient_[m[K = rclcpp_action::create_client<Progress>(this,"get_sum");
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_callback[m[K’ is not a member of ‘[01m[KProgressActionClient[m[K’
+   26 |     options.result_callback = std::bind(&ProgressActionClient::[01;31m[Kresult_callback[m[K,this,_1);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::SharedPtr, std::shared_ptr<const base_interfaces_demo::action::Progress_Feedback_<std::allocator<void> > >)[m[K’:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:42:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   42 |           [01;31m[Kclient_[m[K->async_cancel_goal(feedback_handle);
+      |           [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In function ‘[01m[Kvoid result_callback(const rclcpp_action::ClientGoalHandle<base_interfaces_demo::action::Progress>::WrappedResult&)[m[K’:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:52:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"最终响应结果:%d",result.result->sum);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:52:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:52:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"最终响应结果:%d",result.result->sum);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:52:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"最终响应结果:%d",result.result->sum);
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:52:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   52 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"最终响应结果:%d",result.result->sum);
+      |                   [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:54:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   54 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被中断!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:54:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:54:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"被中断!");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:54:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   54 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被中断!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:54:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   54 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被中断!");
+      |                   [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:56:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   56 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被取消!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:56:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:56:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"被取消!");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:56:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   56 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被取消!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:56:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   56 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"被取消!");
+      |                   [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:58:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"未知异常!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:58:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:58:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   58 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"未知异常!");
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:1[m[K:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:58:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"未知异常!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:58:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   58 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"未知异常!");
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K At global scope:
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:61:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   61 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:63:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   63 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76：CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_action_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

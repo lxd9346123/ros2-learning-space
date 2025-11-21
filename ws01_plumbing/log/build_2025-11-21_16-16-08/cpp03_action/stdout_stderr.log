@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo01_action_server.dir/build.make:76：CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_action_server.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 75%] [32m[1mLinking CXX executable demo02_action_client[0m
+[ 75%] Built target demo02_action_client
+gmake: *** [Makefile:146：all] 错误 2
