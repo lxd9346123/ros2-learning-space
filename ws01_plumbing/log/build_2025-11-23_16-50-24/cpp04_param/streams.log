@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.052s] [ 16%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[0.055s] [ 50%] Built target demo00_param
+[0.062s] [ 66%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[2.278s] [ 83%] [32m[1mLinking CXX executable demo01_param_server[0m
+[2.333s] [100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[2.366s] [100%] Built target demo01_param_server
+[2.430s] [100%] Built target demo02_param_client
+[2.440s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[2.442s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param
+[2.448s] -- Install configuration: ""
+[2.448s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[2.448s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[2.449s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[2.449s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[2.449s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[2.449s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[2.450s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[2.450s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[2.450s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[2.450s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[2.450s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[2.450s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[2.452s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param

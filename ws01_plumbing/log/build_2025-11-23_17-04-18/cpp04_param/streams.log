@@ -1,0 +1,52 @@
+[0.010s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target demo01_param_server[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.051s] [ 33%] Built target demo00_param
+[0.056s] [ 66%] Built target demo01_param_server
+[0.059s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[1.876s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.877s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.877s]                  from [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:2[m[K:
+[1.877s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kvoid MyParam_Client::get_param()[m[K’:
+[1.877s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:30:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.877s]    30 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"car_name = %s"[m[K,car_name);
+[1.878s]       |                                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:30:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.878s]    30 |         RCLCPP_INFO(this->get_logger(),"car_name = [01;36m[K%s[m[K",car_name);
+[1.878s]       |                                                    [01;36m[K~^[m[K
+[1.878s]       |                                                     [01;36m[K|[m[K
+[1.878s]       |                                                     [01;36m[Kchar*[m[K
+[2.466s] [100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[2.555s] [100%] Built target demo02_param_client
+[2.565s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[2.568s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param
+[2.584s] -- Install configuration: ""
+[2.584s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[2.585s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[2.586s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[2.586s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[2.586s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[2.587s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[2.587s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[2.592s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param
