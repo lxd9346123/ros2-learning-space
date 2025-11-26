@@ -1,0 +1,1406 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2.3 服务通信 · ROS2学习指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="xiaodong">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2.3.1-案例以及案例分析.html" />
+    
+    
+    <link rel="prev" href="../2.2-话题通信/2.2.6-话题通信之自定义消息-Python.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    课程简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../1-ROS2概述与环境搭建/ROS2概述与环境搭建.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/ROS2概述与环境搭建.html">
+            
+                    
+                    第1章 ROS2概述与环境搭建 
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.0-ROS2简介.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.0-ROS2简介.html">
+            
+                    
+                    1.1 ROS2简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.1-ROS2发展历程.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.1-ROS2发展历程.html">
+            
+                    
+                    1.1.1 ROS2发展历程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.2-ROS2组成体系.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.2-ROS2组成体系.html">
+            
+                    
+                    1.1.2 ROS2组成体系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.3-ROS2优势.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.1-ROS2简介/1.1.3-ROS2优势.html">
+            
+                    
+                    1.1.3 ROS2优势
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.0-ROS2安装.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.0-ROS2安装.html">
+            
+                    
+                    1.2 ROS2安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.1-安装ROS2.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.1-安装ROS2.html">
+            
+                    
+                    1.2.1 安装ROS2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.2-测试ROS2.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.2-测试ROS2.html">
+            
+                    
+                    1.2.2 测试ROS2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.3-安装colcon构建工具.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.2-ROS2安装/1.2.3-安装colcon构建工具.html">
+            
+                    
+                    1.2.3 安装colcon构建工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.0-ROS2快速体验.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.0-ROS2快速体验.html">
+            
+                    
+                    1.3 ROS快速体验
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.1-案例简介.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.1-案例简介.html">
+            
+                    
+                    1.3.1 案例简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.2-HelloWorld-C++.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.2-HelloWorld-C++.html">
+            
+                    
+                    1.3.2 HelloWorld(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.3-HelloWorld-Python.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.3-HelloWorld-Python.html">
+            
+                    
+                    1.3.3 HelloWorld(Python)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.4-运行优化.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.3-ROS2快速体验/1.3.4-运行优化.html">
+            
+                    
+                    1.3.4 运行优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.0-ROS2集成开发环境搭建.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.0-ROS2集成开发环境搭建.html">
+            
+                    
+                    1.4 ROS2集成开发环境搭建
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.1-安装VSCode.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.1-安装VSCode.html">
+            
+                    
+                    1.4.1 安装VScode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.2-安装终端.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.2-安装终端.html">
+            
+                    
+                    1.4.2 安装终端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.3" data-path="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.3-安装git.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.4-ROS2集成开发环境搭建/1.4.3-安装git.html">
+            
+                    
+                    1.4.3 安装git
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.0-ROS2体系框架.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.0-ROS2体系框架.html">
+            
+                    
+                    1.5 ROS2体系框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.1-ROS2文件系统.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.1-ROS2文件系统.html">
+            
+                    
+                    1.5.1 ROS2文件系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.2-ROS2核心模块.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.2-ROS2核心模块.html">
+            
+                    
+                    1.5.2 ROS2核心模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" data-path="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.3-ROS2技术支持.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.3-ROS2技术支持.html">
+            
+                    
+                    1.5.3 ROS2技术支持
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.4-ROS2应用方向.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.5-ROS2体系框架/1.5.4-ROS2应用方向.html">
+            
+                    
+                    1.5.4 ROS2应用方向
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../1-ROS2概述与环境搭建/1.6-本章小结/1.6.0-本章小结.html">
+            
+                <a href="../../1-ROS2概述与环境搭建/1.6-本章小结/1.6.0-本章小结.html">
+            
+                    
+                    1.6 本章小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../ROS2通信机制核心.html">
+            
+                <a href="../ROS2通信机制核心.html">
+            
+                    
+                    第2章 ROS2通信机制核心 
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../2.1-通信机制简介/2.1.0-通信机制简介.html">
+            
+                <a href="../2.1-通信机制简介/2.1.0-通信机制简介.html">
+            
+                    
+                    2.1 通信机制简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../2.2-话题通信/2.2.0-话题通信.html">
+            
+                <a href="../2.2-话题通信/2.2.0-话题通信.html">
+            
+                    
+                    2.2 话题通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../2.2-话题通信/2.2.1-案例以及案例分析.html">
+            
+                <a href="../2.2-话题通信/2.2.1-案例以及案例分析.html">
+            
+                    
+                    2.2.1 案例以及案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../2.2-话题通信/2.2.2-话题通信之原生消息-C++.html">
+            
+                <a href="../2.2-话题通信/2.2.2-话题通信之原生消息-C++.html">
+            
+                    
+                    2.2.2 话题通信之原生消息(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../2.2-话题通信/2.2.3-话题通信之原生消息-Python.html">
+            
+                <a href="../2.2-话题通信/2.2.3-话题通信之原生消息-Python.html">
+            
+                    
+                    2.2.3 话题通信之原生消息(Pyhon)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../2.2-话题通信/2.2.4-话题通信自定义接口消息.html">
+            
+                <a href="../2.2-话题通信/2.2.4-话题通信自定义接口消息.html">
+            
+                    
+                    2.2.4 话题通信自定义接口消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../2.2-话题通信/2.2.5-话题通信之自定义消息-C++.html">
+            
+                <a href="../2.2-话题通信/2.2.5-话题通信之自定义消息-C++.html">
+            
+                    
+                    2.2.5 话题通信之自定义消息(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.6" data-path="../2.2-话题通信/2.2.6-话题通信之自定义消息-Python.html">
+            
+                <a href="../2.2-话题通信/2.2.6-话题通信之自定义消息-Python.html">
+            
+                    
+                    2.2.6 话题通信之自定义消息(Python)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="2.3.0-服务通信.html">
+            
+                <a href="2.3.0-服务通信.html">
+            
+                    
+                    2.3 服务通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="2.3.1-案例以及案例分析.html">
+            
+                <a href="2.3.1-案例以及案例分析.html">
+            
+                    
+                    2.3.1 案例以及案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="2.3.2-服务通信接口消息.html">
+            
+                <a href="2.3.2-服务通信接口消息.html">
+            
+                    
+                    2.3.2 服务通信接口消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="2.3.3-服务通信-C++.html">
+            
+                <a href="2.3.3-服务通信-C++.html">
+            
+                    
+                    2.3.3 服务通信(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="2.3.4-服务通信-Python.html">
+            
+                <a href="2.3.4-服务通信-Python.html">
+            
+                    
+                    2.3.4 服务通信(Python)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../2.4-动作通信/2.4.0-动作通信.html">
+            
+                <a href="../2.4-动作通信/2.4.0-动作通信.html">
+            
+                    
+                    2.4 动作通信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../2.4-动作通信/2.4.1-案例以及案例分析.html">
+            
+                <a href="../2.4-动作通信/2.4.1-案例以及案例分析.html">
+            
+                    
+                    2.4.1 案例以及案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../2.4-动作通信/2.4.2-动作通信接口消息.html">
+            
+                <a href="../2.4-动作通信/2.4.2-动作通信接口消息.html">
+            
+                    
+                    2.4.2 动作通信接口消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../2.4-动作通信/2.4.3-动作通信-C++.html">
+            
+                <a href="../2.4-动作通信/2.4.3-动作通信-C++.html">
+            
+                    
+                    2.4.3 动作通信(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../2.4-动作通信/2.4.4-动作通信-Python.html">
+            
+                <a href="../2.4-动作通信/2.4.4-动作通信-Python.html">
+            
+                    
+                    2.4.4 动作通信(Pyhon)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../2.5-参数服务/2.5.0-参数服务.html">
+            
+                <a href="../2.5-参数服务/2.5.0-参数服务.html">
+            
+                    
+                    2.5 参数服务
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="../2.5-参数服务/2.5.1-案例以及案例分析.html">
+            
+                <a href="../2.5-参数服务/2.5.1-案例以及案例分析.html">
+            
+                    
+                    2.5.1 案例以及案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" data-path="../2.5-参数服务/2.5.2-参数数据类型.html">
+            
+                <a href="../2.5-参数服务/2.5.2-参数数据类型.html">
+            
+                    
+                    2.5.2 参数数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.3" data-path="../2.5-参数服务/2.5.3-参数服务-C++.html">
+            
+                <a href="../2.5-参数服务/2.5.3-参数服务-C++.html">
+            
+                    
+                    2.5.3 参数服务(C++)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.4" data-path="../2.5-参数服务/2.5.4-参数服务-Python.html">
+            
+                <a href="../2.5-参数服务/2.5.4-参数服务-Python.html">
+            
+                    
+                    2.5.4 参数服务(Pyhon)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../2.6-本章小结/2.6.0-本章小结.html">
+            
+                <a href="../2.6-本章小结/2.6.0-本章小结.html">
+            
+                    
+                    2.6 本章小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../3-ROS2通信机制补充/ROS2通信机制补充.html">
+            
+                <a href="../../3-ROS2通信机制补充/ROS2通信机制补充.html">
+            
+                    
+                    第3章 ROS2通信机制补充 
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../3-ROS2通信机制补充/3.1-分布式/3.1.0-分布式.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.1-分布式/3.1.0-分布式.html">
+            
+                    
+                    3.1 分布式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../3-ROS2通信机制补充/3.2-工作空间覆盖/3.2.0-工作空间覆盖.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.2-工作空间覆盖/3.2.0-工作空间覆盖.html">
+            
+                    
+                    3.2 工作空间覆盖
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../3-ROS2通信机制补充/3.3-元功能包/3.3.0-元功能包.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.3-元功能包/3.3.0-元功能包.html">
+            
+                    
+                    3.3 元功能包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../3-ROS2通信机制补充/3.4-节点重名/3.4.0-节点重名.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.4-节点重名/3.4.0-节点重名.html">
+            
+                    
+                    3.4 节点重名
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../../3-ROS2通信机制补充/3.4-节点重名/3.4.1-ros2_run设置节点名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.4-节点重名/3.4.1-ros2_run设置节点名称.html">
+            
+                    
+                    3.4.1 ros2 run设置节点名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../../3-ROS2通信机制补充/3.4-节点重名/3.4.2-launch文件设置节点名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.4-节点重名/3.4.2-launch文件设置节点名称.html">
+            
+                    
+                    3.4.2 launch文件设置节点名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../../3-ROS2通信机制补充/3.4-节点重名/3.4.3-编码设置节点名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.4-节点重名/3.4.3-编码设置节点名称.html">
+            
+                    
+                    3.4.3 编码设置节点名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../3-ROS2通信机制补充/3.5-话题重名/3.5.0-话题重名.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.5-话题重名/3.5.0-话题重名.html">
+            
+                    
+                    3.5 话题重名
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../../3-ROS2通信机制补充/3.5-话题重名/3.5.1-ros2_run设置话题名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.5-话题重名/3.5.1-ros2_run设置话题名称.html">
+            
+                    
+                    3.5.1 ros2 run设置话题名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../../3-ROS2通信机制补充/3.5-话题重名/3.5.2-launch文件设置话题名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.5-话题重名/3.5.2-launch文件设置话题名称.html">
+            
+                    
+                    3.5.2 launch文件设置节点名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../../3-ROS2通信机制补充/3.5-话题重名/3.5.3-编码设置话题名称.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.5-话题重名/3.5.3-编码设置话题名称.html">
+            
+                    
+                    3.5.3 编码设置节点名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.0-时间相关API.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.0-时间相关API.html">
+            
+                    
+                    3.6 时间相关API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.1-Rate.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.1-Rate.html">
+            
+                    
+                    3.6.1 Rate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.2-Time.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.2-Time.html">
+            
+                    
+                    3.6.2 Time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.3" data-path="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.3-Duration.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.3-Duration.html">
+            
+                    
+                    3.6.3 Duration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.4" data-path="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.4-Time与Duration运算.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.6-时间相关API/3.6.4-Time与Duration运算.html">
+            
+                    
+                    3.6.4 Time与Duration运算
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.0-通信机制工具.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.0-通信机制工具.html">
+            
+                    
+                    3.7 通信机制工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.1-命令工具.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.1-命令工具.html">
+            
+                    
+                    3.7.1 命令工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.2" data-path="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.2-rqt工具箱.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.7-通信机制工具/3.7.2-rqt工具箱.html">
+            
+                    
+                    3.7.2 rqt工具箱
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.0-通信机制实操.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.0-通信机制实操.html">
+            
+                    
+                    3.8 通信机制实操
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.8.1" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.1-话题通信案例分析.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.1-话题通信案例分析.html">
+            
+                    
+                    3.8.1 话题通信案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.2" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.2-话题通信实现.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.2-话题通信实现.html">
+            
+                    
+                    3.8.2 话题通信实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.3" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.3-服务通信案例分析.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.3-服务通信案例分析.html">
+            
+                    
+                    3.8.3 服务通信案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.4" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.4-服务通信实现.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.4-服务通信实现.html">
+            
+                    
+                    3.8.4 服务通信实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.5" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.5-动作通信案例分析.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.5-动作通信案例分析.html">
+            
+                    
+                    3.8.5 动作通信案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.6" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.6-动作通信实现.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.6-动作通信实现.html">
+            
+                    
+                    3.8.6 动作通信实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.7" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.7-参数服务案例分析.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.7-参数服务案例分析.html">
+            
+                    
+                    3.8.7 参数服务案例分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8.8" data-path="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.8-参数服务实现.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.8-通信机制实操/3.8.8-参数服务实现.html">
+            
+                    
+                    3.8.8 参数服务实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../../3-ROS2通信机制补充/3.9-本章小结/3.9.0-本章小结.html">
+            
+                <a href="../../3-ROS2通信机制补充/3.9-本章小结/3.9.0-本章小结.html">
+            
+                    
+                    3.9 本章小结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >2.3 服务通信</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="23-&#x670D;&#x52A1;&#x901A;&#x4FE1;">2.3 &#x670D;&#x52A1;&#x901A;&#x4FE1;</h2>
+<h4 id="&#x573A;&#x666F;">&#x573A;&#x666F;</h4>
+<p>&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x4E5F;&#x662F;ROS&#x4E2D;&#x4E00;&#x79CD;&#x6781;&#x5176;&#x5E38;&#x7528;&#x7684;&#x901A;&#x4FE1;&#x6A21;&#x5F0F;&#xFF0C;&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x662F;&#x57FA;&#x4E8E;<strong>&#x8BF7;&#x6C42;&#x54CD;&#x5E94;</strong>&#x6A21;&#x5F0F;&#x7684;&#xFF0C;&#x662F;&#x4E00;&#x79CD;&#x5E94;&#x7B54;&#x673A;&#x5236;&#x3002;&#x4E5F;&#x5373;&#xFF1A;&#x4E00;&#x4E2A;&#x8282;&#x70B9;A&#x5411;&#x53E6;&#x4E00;&#x4E2A;&#x8282;&#x70B9;B&#x53D1;&#x9001;&#x8BF7;&#x6C42;&#xFF0C;B&#x63A5;&#x6536;&#x5904;&#x7406;&#x8BF7;&#x6C42;&#x5E76;&#x4EA7;&#x751F;&#x54CD;&#x5E94;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x7ED9;A&#x3002;&#x6BD4;&#x5982;&#x5982;&#x4E0B;&#x573A;&#x666F;&#xFF1A;</p>
+<blockquote>
+<p>&#x673A;&#x5668;&#x4EBA;&#x5DE1;&#x903B;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#x5206;&#x6790;&#x4F20;&#x611F;&#x5668;&#x6570;&#x636E;&#x53D1;&#x73B0;&#x53EF;&#x7591;&#x7269;&#x4F53;&#x6216;&#x4EBA;... &#x6B64;&#x65F6;&#x9700;&#x8981;&#x62CD;&#x6444;&#x7167;&#x7247;&#x5E76;&#x7559;&#x5B58;&#x3002;</p>
+</blockquote>
+<p>&#x5728;&#x4E0A;&#x8FF0;&#x573A;&#x666F;&#x4E2D;&#xFF0C;&#x5C31;&#x4F7F;&#x7528;&#x5230;&#x4E86;&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x3002;</p>
+<ul>
+<li>&#x6570;&#x636E;&#x5206;&#x6790;&#x8282;&#x70B9;A&#x9700;&#x8981;&#x5411;&#x76F8;&#x673A;&#x76F8;&#x5173;&#x8282;&#x70B9;B&#x53D1;&#x9001;&#x56FE;&#x7247;&#x5B58;&#x50A8;&#x8BF7;&#x6C42;&#xFF0C;&#x8282;&#x70B9;B&#x5904;&#x7406;&#x8BF7;&#x6C42;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x5904;&#x7406;&#x7ED3;&#x679C;&#x3002;</li>
+</ul>
+<p>&#x4E0E;&#x4E0A;&#x8FF0;&#x5E94;&#x7528;&#x7C7B;&#x4F3C;&#x7684;&#xFF0C;&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x66F4;&#x9002;&#x7528;&#x4E8E;&#x5BF9;&#x5B9E;&#x65F6;&#x6027;&#x6709;&#x8981;&#x6C42;&#x3001;&#x5177;&#x6709;&#x4E00;&#x5B9A;&#x903B;&#x8F91;&#x5904;&#x7406;&#x7684;&#x5E94;&#x7528;&#x573A;&#x666F;&#x3002;</p>
+<h4 id="&#x6982;&#x5FF5;">&#x6982;&#x5FF5;</h4>
+<p>&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x662F;&#x4EE5;&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x7684;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x4E0D;&#x540C;&#x8282;&#x70B9;&#x4E4B;&#x95F4;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x7684;&#x901A;&#x4FE1;&#x6A21;&#x5F0F;&#x3002;&#x53D1;&#x9001;&#x8BF7;&#x6C42;&#x6570;&#x636E;&#x7684;&#x5BF9;&#x8C61;&#x79F0;&#x4E3A;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x63A5;&#x6536;&#x8BF7;&#x6C42;&#x5E76;&#x53D1;&#x9001;&#x54CD;&#x5E94;&#x7684;&#x5BF9;&#x8C61;&#x79F0;&#x4E4B;&#x4E3A;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x540C;&#x8BDD;&#x9898;&#x901A;&#x4FE1;&#x4E00;&#x6837;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x548C;&#x670D;&#x52A1;&#x7AEF;&#x4E5F;&#x901A;&#x8FC7;&#x8BDD;&#x9898;&#x76F8;&#x5173;&#x8054;&#xFF0C;&#x4E0D;&#x540C;&#x7684;&#x662F;&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x7684;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x662F;&#x53CC;&#x5411;&#x4EA4;&#x4E92;&#x5F0F;&#x7684;&#x3002;</p>
+<p><img src="../../&#x56FE;&#x50CF;/2.3&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x6A21;&#x578B;1.gif" alt=""></p>
+<p>&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x4E2D;&#xFF0C;&#x670D;&#x52A1;&#x7AEF;&#x4E0E;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x4E00;&#x5BF9;&#x591A;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x4E5F;&#x5373;&#xFF0C;&#x540C;&#x4E00;&#x670D;&#x52A1;&#x8BDD;&#x9898;&#x4E0B;&#xFF0C;&#x5B58;&#x5728;&#x591A;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x6BCF;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#x90FD;&#x53EF;&#x4EE5;&#x5411;&#x670D;&#x52A1;&#x7AEF;&#x53D1;&#x9001;&#x8BF7;&#x6C42;&#x3002;</p>
+<p><img src="../../&#x56FE;&#x50CF;/2.3&#x670D;&#x52A1;&#x901A;&#x4FE1;&#x6A21;&#x578B;2.gif" alt=""></p>
+<h4 id="&#x4F5C;&#x7528;"><strong>&#x4F5C;&#x7528;</strong> </h4>
+<p>&#x7528;&#x4E8E;&#x5076;&#x7136;&#x7684;&#x3001;&#x5BF9;&#x5B9E;&#x65F6;&#x6027;&#x6709;&#x8981;&#x6C42;&#x3001;&#x6709;&#x4E00;&#x5B9A;&#x903B;&#x8F91;&#x5904;&#x7406;&#x9700;&#x6C42;&#x7684;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x573A;&#x666F;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../2.2-话题通信/2.2.6-话题通信之自定义消息-Python.html" class="navigation navigation-prev " aria-label="Previous page: 2.2.6 话题通信之自定义消息(Python)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2.3.1-案例以及案例分析.html" class="navigation navigation-next " aria-label="Next page: 2.3.1 案例以及案例分析">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"2.3 服务通信","level":"1.3.3","depth":2,"next":{"title":"2.3.1 案例以及案例分析","level":"1.3.3.1","depth":3,"path":"2-ROS2通信机制核心/2.3-服务通信/2.3.1-案例以及案例分析.md","ref":"2-ROS2通信机制核心/2.3-服务通信/2.3.1-案例以及案例分析.md","articles":[]},"previous":{"title":"2.2.6 话题通信之自定义消息(Python)","level":"1.3.2.6","depth":3,"path":"2-ROS2通信机制核心/2.2-话题通信/2.2.6-话题通信之自定义消息-Python.md","ref":"2-ROS2通信机制核心/2.2-话题通信/2.2.6-话题通信之自定义消息-Python.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","-highlight","-lunr","-search","search-pro","code","expandable-chapters","back-to-top-button","alerts","livereload"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"prism":{"languages":["cpp","c"]},"livereload":{},"search-pro":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"back-to-top-button":{},"alerts":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"xiaodong","lang":"zh-cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROS2学习指南","gitbook":"*","description":"记录ROS2学习"},"file":{"path":"2-ROS2通信机制核心/2.3-服务通信/2.3.0-服务通信.md","mtime":"2025-11-26T12:15:37.569Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-11-26T13:13:07.124Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

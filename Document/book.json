@@ -1,0 +1,25 @@
+{
+  "title": "ROS2学习指南",
+  "author": "xiaodong",
+  "lang": "zh-cn",
+  "description": "记录ROS2学习",
+  "plugins": [
+    "prism",
+    "-highlight",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "code",
+    "expandable-chapters",
+    "back-to-top-button",
+    "alerts"
+  ],
+  "pluginsConfig": {
+  "prism": {
+    "languages": [
+      "cpp",
+      "c"
+    ]
+  }
+}
+}
