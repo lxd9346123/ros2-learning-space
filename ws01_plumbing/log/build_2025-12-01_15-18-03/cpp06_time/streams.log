@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time -- -j18 -l18
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.112s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.129s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.130s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.133s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.164s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.302s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.303s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/east/ros2-learning-space/ws01_plumbing/src/cpp06_time/include>
+[0.303s] -- Configured cppcheck exclude dirs and/or files: 
+[0.303s] -- Added test 'lint_cmake' to check CMake code style
+[0.303s] -- Added test 'uncrustify' to check C / C++ code style
+[0.303s] -- Configured uncrustify additional arguments: 
+[0.303s] -- Added test 'xmllint' to check XML markup files
+[0.304s] -- Configuring done
+[0.313s] -- Generating done
+[0.317s] -- Build files have been written to: /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target demo03_duration[0m
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target demo01_rate[0m
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target demo02_time[0m
+[0.350s] [ 12%] [32mBuilding CXX object CMakeFiles/demo03_duration.dir/src/demo03_duration.cpp.o[0m
+[0.350s] [ 25%] [32mBuilding CXX object CMakeFiles/demo04_option.dir/src/demo04_option.cpp.o[0m
+[0.354s] [ 50%] Built target demo01_rate
+[0.356s] [ 75%] Built target demo02_time
+[2.261s] [ 87%] [32m[1mLinking CXX executable demo04_option[0m
+[2.261s] [100%] [32m[1mLinking CXX executable demo03_duration[0m
+[2.340s] [100%] Built target demo04_option
+[2.340s] [100%] Built target demo03_duration
+[2.350s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time -- -j18 -l18
+[2.357s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time
+[2.362s] -- Install configuration: ""
+[2.362s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo01_rate
+[2.362s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo02_time
+[2.362s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo03_duration
+[2.362s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo03_duration" to ""
+[2.362s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo04_option
+[2.362s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo04_option" to ""
+[2.362s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[2.362s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[2.362s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[2.362s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[2.363s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[2.363s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[2.363s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[2.363s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[2.364s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time

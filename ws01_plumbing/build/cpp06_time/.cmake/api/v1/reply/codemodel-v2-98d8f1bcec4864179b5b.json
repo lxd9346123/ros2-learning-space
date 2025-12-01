@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6e966ec1b8ffa4c5068f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp06_time",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp06_time_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp06_time_uninstall-9ecb2615386c736403ea.json",
+					"name" : "cpp06_time_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_rate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_rate-6fa4efa086e0cd8298e0.json",
+					"name" : "demo01_rate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_time-f670e89801f565402405.json",
+					"name" : "demo02_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo03_duration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo03_duration-0fdf28ad0052bdb4da4f.json",
+					"name" : "demo03_duration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo04_option::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo04_option-ba673f949589924852e9.json",
+					"name" : "demo04_option",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-898d94af8fd4c708f04d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time",
+		"source" : "/home/east/ros2-learning-space/ws01_plumbing/src/cpp06_time"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

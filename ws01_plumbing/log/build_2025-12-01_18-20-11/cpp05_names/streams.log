@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names -- -j18 -l18
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[2.152s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[2.235s] [100%] Built target demo01_names
+[2.246s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names -- -j18 -l18
+[2.247s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names
+[2.256s] -- Install configuration: ""
+[2.256s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names
+[2.256s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[2.256s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.sh
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.bash
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.sh
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.dsv
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[2.257s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names/share/cpp05_names/package.xml
+[2.259s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names

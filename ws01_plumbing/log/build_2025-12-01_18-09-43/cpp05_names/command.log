@@ -1,0 +1,6 @@
+Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake /home/east/ros2-learning-space/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names
+Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names' returned '0': /usr/bin/cmake /home/east/ros2-learning-space/ws01_plumbing/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names
+Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names -- -j18 -l18
+Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names -- -j18 -l18
+Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names
+Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names

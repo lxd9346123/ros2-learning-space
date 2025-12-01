@@ -1,0 +1,4 @@
+Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time -- -j18 -l18
+Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time -- -j18 -l18
+Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time
+Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp06_time
