@@ -1,0 +1,6 @@
+[ 33%] Built target exer01_pub_sub
+[ 33%] Built target exer02_server
+[ 41%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[ 58%] Built target exer03_client
+[ 75%] Built target exer05_action_client
+[ 91%] Built target exer06_param

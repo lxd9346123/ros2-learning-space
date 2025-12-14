@@ -217,4 +217,7 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
  /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/progress__struct.h \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.h
+ /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.h \
+ /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/nav__type_support.h \
+ /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/nav__struct.h \
+ /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/nav__functions.h

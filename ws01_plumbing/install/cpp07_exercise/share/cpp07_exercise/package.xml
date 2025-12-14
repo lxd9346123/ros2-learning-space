@@ -13,6 +13,7 @@
   <depend>turtlesim</depend>
   <depend>geometry_msgs</depend>
   <depend>base_interfaces_demo</depend>
+  <depend>rclcpp_action</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

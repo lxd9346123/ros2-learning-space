@@ -1,0 +1,102 @@
+[0.012s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise:/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time:/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names:/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise -- -j18 -l18
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.142s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.177s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.177s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.273s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.298s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.306s] -- Found base_interfaces_demo: 0.0.0 (/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.326s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.341s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.386s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/include>
+[0.387s] -- Configured cppcheck exclude dirs and/or files: 
+[0.387s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.387s] -- Added test 'lint_cmake' to check CMake code style
+[0.387s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.387s] -- Added test 'uncrustify' to check C / C++ code style
+[0.387s] -- Configured uncrustify additional arguments: 
+[0.388s] -- Added test 'xmllint' to check XML markup files
+[0.388s] -- Configuring done
+[0.405s] -- Generating done
+[0.412s] -- Build files have been written to: /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target exer05_action_client[0m
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[0.436s] [35m[1mConsolidate compiler generated dependencies of target exer06_param[0m
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[0.445s] [  8%] [32mBuilding CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o[0m
+[0.447s] [ 16%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[0.449s] [ 25%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[0.449s] [ 33%] [32mBuilding CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o[0m
+[0.450s] [ 50%] Built target exer06_param
+[0.453s] [ 58%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[2.336s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_interfaces_demo::action::Nav_Goal_<std::allocator<void> > >)[m[K’:
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:33:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.337s]    33 |     rclcpp_action::GoalResponse  handle_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const base_interfaces_demo::action::Nav::Goal> goal){
+[2.337s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:33:146:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.337s]    33 |     rclcpp_action::GoalResponse  handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const base_interfaces_demo::action::Nav::Goal> goal[m[K){
+[2.337s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)[m[K’:
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:39:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcancel_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.337s]    39 |     rclcpp_action::CancelResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav>> cancel_handle[m[K){
+[2.337s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav> >)[m[K’:
+[2.337s] [01m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer04_action_server.cpp:46:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaccepted_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.337s]    46 |     void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Nav>> accepted_handle[m[K){
+[2.337s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[2.761s] [ 66%] [32m[1mLinking CXX executable exer05_action_client[0m
+[2.911s] [ 66%] Built target exer05_action_client
+[3.490s] [ 75%] [32m[1mLinking CXX executable exer03_client[0m
+[3.610s] [ 75%] Built target exer03_client
+[6.620s] [ 83%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[6.960s] [ 83%] Built target exer01_pub_sub
+[7.104s] [ 91%] [32m[1mLinking CXX executable exer04_action_server[0m
+[7.419s] [ 91%] Built target exer04_action_server
+[8.220s] [100%] [32m[1mLinking CXX executable exer02_server[0m
+[8.550s] [100%] Built target exer02_server
+[8.561s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise:/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time:/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names:/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise -- -j18 -l18
+[8.563s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise:/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time:/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names:/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise
+[8.569s] -- Install configuration: ""
+[8.569s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[8.572s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""
+[8.572s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[8.574s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer02_server" to ""
+[8.575s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[8.575s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer03_client" to ""
+[8.575s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[8.578s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server" to ""
+[8.578s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[8.578s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client" to ""
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer06_param
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_action_client_launch.py
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer06_param_launch.py
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[8.578s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_action_server_launch.py
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[8.579s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[8.579s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[8.581s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise:/home/east/ros2-learning-space/ws01_plumbing/install/cpp06_time:/home/east/ros2-learning-space/ws01_plumbing/install/cpp05_names:/home/east/ros2-learning-space/ws01_plumbing/install/cpp04_param:/home/east/ros2-learning-space/ws01_plumbing/install/cpp03_action:/home/east/ros2-learning-space/ws01_plumbing/install/cpp02_service:/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise

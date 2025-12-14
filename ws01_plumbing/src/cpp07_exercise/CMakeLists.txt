@@ -11,10 +11,13 @@ find_package(rclcpp REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(base_interfaces_demo REQUIRED)
+find_package(rclcpp_action REQUIRED)
 
 add_executable(exer01_pub_sub src/exer01_pub_sub.cpp)
 add_executable(exer02_server src/exer02_server.cpp)
 add_executable(exer03_client src/exer03_client.cpp)
+add_executable(exer04_action_server src/exer04_action_server.cpp)
+add_executable(exer05_action_client src/exer05_action_client.cpp)
 add_executable(exer06_param src/exer06_param.cpp)
 target_include_directories(exer01_pub_sub PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -26,6 +29,7 @@ ament_target_dependencies(
   "turtlesim"
   "geometry_msgs"
   "base_interfaces_demo"
+  "rclcpp_action"
 )
 
 ament_target_dependencies(
@@ -34,6 +38,7 @@ ament_target_dependencies(
   "turtlesim"
   "geometry_msgs"
   "base_interfaces_demo"
+  "rclcpp_action"
 )
 
 ament_target_dependencies(
@@ -42,6 +47,25 @@ ament_target_dependencies(
   "turtlesim"
   "geometry_msgs"
   "base_interfaces_demo"
+  "rclcpp_action"
+)
+
+ament_target_dependencies(
+  exer04_action_server
+  "rclcpp"
+  "turtlesim"
+  "geometry_msgs"
+  "base_interfaces_demo"
+  "rclcpp_action"
+)
+
+ament_target_dependencies(
+  exer05_action_client
+  "rclcpp"
+  "turtlesim"
+  "geometry_msgs"
+  "base_interfaces_demo"
+  "rclcpp_action"
 )
 
 ament_target_dependencies(
@@ -59,6 +83,10 @@ install(TARGETS exer02_server
   DESTINATION lib/${PROJECT_NAME})
 
 install(TARGETS exer03_client
+  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS exer04_action_server
+  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS exer05_action_client
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS exer06_param
   DESTINATION lib/${PROJECT_NAME})

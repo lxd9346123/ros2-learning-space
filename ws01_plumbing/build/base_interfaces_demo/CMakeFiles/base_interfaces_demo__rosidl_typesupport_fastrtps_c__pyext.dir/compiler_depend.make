@@ -258,8 +258,15 @@ CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl
   rosidl_generator_c/base_interfaces_demo/action/detail/progress__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.h
+  rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.h \
+  rosidl_generator_c/base_interfaces_demo/action/detail/nav__type_support.h \
+  rosidl_generator_c/base_interfaces_demo/action/detail/nav__struct.h \
+  rosidl_generator_c/base_interfaces_demo/action/detail/nav__functions.h
 
+
+rosidl_generator_c/base_interfaces_demo/action/detail/nav__functions.h:
+
+rosidl_generator_c/base_interfaces_demo/action/detail/nav__struct.h:
 
 rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.h:
 
@@ -546,6 +553,8 @@ rosidl_generator_c/base_interfaces_demo/msg/detail/student__struct.h:
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+rosidl_generator_c/base_interfaces_demo/action/detail/nav__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 

@@ -86,6 +86,11 @@ CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__struct.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__traits.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__type_support.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/nav.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__builder.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__struct.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__traits.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__type_support.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -107,6 +112,7 @@ rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_i
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/srv/Distance.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/action/Progress.idl
+rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/action/Nav.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -236,11 +242,31 @@ rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__traits.hpp: ro
 rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__type_support.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__type_support.hpp
 
+rosidl_generator_cpp/base_interfaces_demo/action/nav.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/nav.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__builder.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__builder.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__struct.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__struct.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__traits.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__traits.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__type_support.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__type_support.hpp
+
 base_interfaces_demo__cpp: CMakeFiles/base_interfaces_demo__cpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__builder.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__struct.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__traits.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/nav__type_support.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__builder.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__struct.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__traits.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__type_support.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/nav.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/progress.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__builder.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/msg/detail/student__struct.hpp

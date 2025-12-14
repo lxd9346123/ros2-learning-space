@@ -237,6 +237,32 @@ exer03_client/fast:
 .PHONY : exer03_client/fast
 
 #=============================================================================
+# Target rules for targets named exer04_action_server
+
+# Build rule for target.
+exer04_action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exer04_action_server
+.PHONY : exer04_action_server
+
+# fast build rule for target.
+exer04_action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/build
+.PHONY : exer04_action_server/fast
+
+#=============================================================================
+# Target rules for targets named exer05_action_client
+
+# Build rule for target.
+exer05_action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exer05_action_client
+.PHONY : exer05_action_client
+
+# fast build rule for target.
+exer05_action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/build
+.PHONY : exer05_action_client/fast
+
+#=============================================================================
 # Target rules for targets named exer06_param
 
 # Build rule for target.
@@ -321,6 +347,54 @@ src/exer03_client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/src/exer03_client.cpp.s
 .PHONY : src/exer03_client.cpp.s
 
+src/exer04_action_server.o: src/exer04_action_server.cpp.o
+.PHONY : src/exer04_action_server.o
+
+# target to build an object file
+src/exer04_action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o
+.PHONY : src/exer04_action_server.cpp.o
+
+src/exer04_action_server.i: src/exer04_action_server.cpp.i
+.PHONY : src/exer04_action_server.i
+
+# target to preprocess a source file
+src/exer04_action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.i
+.PHONY : src/exer04_action_server.cpp.i
+
+src/exer04_action_server.s: src/exer04_action_server.cpp.s
+.PHONY : src/exer04_action_server.s
+
+# target to generate assembly for a file
+src/exer04_action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.s
+.PHONY : src/exer04_action_server.cpp.s
+
+src/exer05_action_client.o: src/exer05_action_client.cpp.o
+.PHONY : src/exer05_action_client.o
+
+# target to build an object file
+src/exer05_action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o
+.PHONY : src/exer05_action_client.cpp.o
+
+src/exer05_action_client.i: src/exer05_action_client.cpp.i
+.PHONY : src/exer05_action_client.i
+
+# target to preprocess a source file
+src/exer05_action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.i
+.PHONY : src/exer05_action_client.cpp.i
+
+src/exer05_action_client.s: src/exer05_action_client.cpp.s
+.PHONY : src/exer05_action_client.s
+
+# target to generate assembly for a file
+src/exer05_action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.s
+.PHONY : src/exer05_action_client.cpp.s
+
 src/exer06_param.o: src/exer06_param.cpp.o
 .PHONY : src/exer06_param.o
 
@@ -363,6 +437,8 @@ help:
 	@echo "... exer01_pub_sub"
 	@echo "... exer02_server"
 	@echo "... exer03_client"
+	@echo "... exer04_action_server"
+	@echo "... exer05_action_client"
 	@echo "... exer06_param"
 	@echo "... src/exer01_pub_sub.o"
 	@echo "... src/exer01_pub_sub.i"
@@ -373,6 +449,12 @@ help:
 	@echo "... src/exer03_client.o"
 	@echo "... src/exer03_client.i"
 	@echo "... src/exer03_client.s"
+	@echo "... src/exer04_action_server.o"
+	@echo "... src/exer04_action_server.i"
+	@echo "... src/exer04_action_server.s"
+	@echo "... src/exer05_action_client.o"
+	@echo "... src/exer05_action_client.i"
+	@echo "... src/exer05_action_client.s"
 	@echo "... src/exer06_param.o"
 	@echo "... src/exer06_param.i"
 	@echo "... src/exer06_param.s"

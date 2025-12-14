@@ -1,0 +1,64 @@
+[0.011s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic -- -j18 -l18
+[0.030s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.197s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found base_interfaces_demo: 0.0.0 (/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.340s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.417s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.417s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/east/ros2-learning-space/ws01_plumbing/src/cpp01_topic/include>
+[0.418s] -- Configured cppcheck exclude dirs and/or files: 
+[0.418s] -- Added test 'lint_cmake' to check CMake code style
+[0.418s] -- Added test 'uncrustify' to check C / C++ code style
+[0.418s] -- Configured uncrustify additional arguments: 
+[0.418s] -- Added test 'xmllint' to check XML markup files
+[0.419s] -- Configuring done
+[0.435s] -- Generating done
+[0.440s] -- Build files have been written to: /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.474s] [ 12%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.474s] [ 25%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.477s] [ 37%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[0.483s] [ 50%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[0.814s] [ 62%] Built target demo01_talker_str
+[0.892s] [ 75%] Built target demo02_listener_str
+[4.909s] [ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[5.090s] [ 87%] Built target demo03_talker_stu
+[7.986s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[8.295s] [100%] Built target demo04_listener_stu
+[8.305s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic -- -j18 -l18
+[8.307s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic
+[8.315s] -- Install configuration: ""
+[8.315s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[8.316s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[8.316s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[8.318s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[8.318s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[8.319s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[8.319s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[8.321s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[8.321s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[8.321s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[8.321s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[8.321s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[8.321s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[8.321s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[8.322s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[8.322s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[8.322s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[8.322s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[8.323s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/east/ros2-learning-space/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp01_topic
