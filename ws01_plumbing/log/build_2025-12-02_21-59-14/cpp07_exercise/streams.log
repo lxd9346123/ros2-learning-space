@@ -1,0 +1,27 @@
+[0.019s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise -- -j18 -l18
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.dir/src/exer01_pub_sub.cpp.o[0m
+[2.235s] [100%] [32m[1mLinking CXX executable exer01_pub_sub[0m
+[2.326s] [100%] Built target exer01_pub_sub
+[2.336s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise -- -j18 -l18
+[2.338s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise
+[2.344s] -- Install configuration: ""
+[2.344s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[2.345s] -- Set runtime path of "/home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub" to ""
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch
+[2.345s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[2.345s] -- Installing: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[2.345s] -- Up-to-date: /home/east/ros2-learning-space/ws01_plumbing/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[2.347s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise' returned '0': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp07_exercise

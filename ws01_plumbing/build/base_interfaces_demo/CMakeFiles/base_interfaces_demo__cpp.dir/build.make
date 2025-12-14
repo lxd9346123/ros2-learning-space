@@ -76,6 +76,11 @@ CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__struct.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp
+CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__type_support.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/progress.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__builder.hpp
 CMakeFiles/base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/action/detail/progress__struct.hpp
@@ -100,6 +105,7 @@ rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/srv/Distance.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
@@ -200,6 +206,21 @@ rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp: rosid
 rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
 
+rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp
+
+rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__type_support.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__type_support.hpp
+
 rosidl_generator_cpp/base_interfaces_demo/action/progress.hpp: rosidl_generator_cpp/base_interfaces_demo/msg/student.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_interfaces_demo/action/progress.hpp
 
@@ -231,6 +252,11 @@ base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__struct.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__traits.hpp
 base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__builder.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__struct.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__traits.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/detail/distance__type_support.hpp
+base_interfaces_demo__cpp: rosidl_generator_cpp/base_interfaces_demo/srv/distance.hpp
 base_interfaces_demo__cpp: CMakeFiles/base_interfaces_demo__cpp.dir/build.make
 .PHONY : base_interfaces_demo__cpp
 

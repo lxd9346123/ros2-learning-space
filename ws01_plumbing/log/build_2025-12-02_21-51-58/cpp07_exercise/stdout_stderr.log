@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/exer01_pub_sub.cpp.dir/src/exer01_pub_sub.cpp.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/east/ros2-learning-space/ws01_plumbing/src/cpp07_exercise/src/exer01_pub_sub.cpp.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exer01_pub_sub.cpp.dir/build.make:76：CMakeFiles/exer01_pub_sub.cpp.dir/src/exer01_pub_sub.cpp.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/exer01_pub_sub.cpp.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

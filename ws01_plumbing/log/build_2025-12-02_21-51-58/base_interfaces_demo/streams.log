@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo -- -j18 -l18
+[0.067s] [  8%] Built target base_interfaces_demo__cpp
+[0.067s] [ 12%] Built target base_interfaces_demo__rosidl_generator_c
+[0.080s] [ 12%] Built target ament_cmake_python_copy_base_interfaces_demo
+[0.091s] [ 23%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[0.091s] [ 34%] Built target base_interfaces_demo__rosidl_typesupport_c
+[0.091s] [ 44%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[0.091s] [ 55%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[0.093s] [ 65%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[0.118s] [ 76%] Built target base_interfaces_demo
+[0.142s] [ 78%] Built target base_interfaces_demo__py
+[0.164s] [ 87%] Built target base_interfaces_demo__rosidl_generator_py
+[0.184s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[0.184s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[0.185s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[0.225s] running egg_info
+[0.225s] writing base_interfaces_demo.egg-info/PKG-INFO
+[0.225s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[0.225s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[0.226s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.227s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[0.249s] [100%] Built target ament_cmake_python_build_base_interfaces_demo_egg

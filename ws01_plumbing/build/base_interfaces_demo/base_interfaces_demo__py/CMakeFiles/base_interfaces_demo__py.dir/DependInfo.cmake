@@ -23,6 +23,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/__init__.py" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_distance.py" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/srv/_distance_s.c" "/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

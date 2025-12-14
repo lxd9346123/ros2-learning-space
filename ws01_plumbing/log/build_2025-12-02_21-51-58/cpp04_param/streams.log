@@ -1,0 +1,6 @@
+[0.024s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[0.063s] [ 33%] Built target demo00_param
+[0.063s] [ 66%] Built target demo01_param_server
+[0.070s] [100%] Built target demo02_param_client
+[0.104s] Invoked command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param' returned '0': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param -- -j18 -l18
+[0.111s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param': /usr/bin/cmake --install /home/east/ros2-learning-space/ws01_plumbing/build/cpp04_param

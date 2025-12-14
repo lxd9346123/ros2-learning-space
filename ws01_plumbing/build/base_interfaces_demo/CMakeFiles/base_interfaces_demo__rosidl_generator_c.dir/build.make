@@ -84,6 +84,7 @@ rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/ros
 rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/base_interfaces_demo/msg/student.h: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_generator_c/base_interfaces_demo/msg/student.h: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_generator_c/base_interfaces_demo/msg/student.h: rosidl_adapter/base_interfaces_demo/srv/Distance.idl
 rosidl_generator_c/base_interfaces_demo/msg/student.h: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/base_interfaces_demo/msg/student.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
@@ -178,6 +179,18 @@ rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__struct.h: rosidl_ge
 rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__type_support.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__type_support.h
 
+rosidl_generator_c/base_interfaces_demo/srv/distance.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/distance.h
+
+rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.h
+
+rosidl_generator_c/base_interfaces_demo/srv/detail/distance__struct.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/distance__struct.h
+
+rosidl_generator_c/base_interfaces_demo/srv/detail/distance__type_support.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/distance__type_support.h
+
 rosidl_generator_c/base_interfaces_demo/action/progress.h: rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/action/progress.h
 
@@ -195,6 +208,9 @@ rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c: rosidl_
 
 rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c: rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c
+
+rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c: rosidl_generator_c/base_interfaces_demo/msg/student.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c
 
 rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c: rosidl_generator_c/base_interfaces_demo/msg/student.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c
@@ -227,10 +243,24 @@ CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.s
 
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/flags.make
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o: rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o -MF CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o.d -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o -c /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c
+
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c > CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.i
+
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.s
+
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/flags.make
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o: rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o -MF CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o.d -o CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o -c /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c
 
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.i: cmake_force
@@ -245,6 +275,7 @@ CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_
 base_interfaces_demo__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o" \
 "CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o" \
+"CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o" \
 "CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o"
 
 # External object files for target base_interfaces_demo__rosidl_generator_c
@@ -252,6 +283,7 @@ base_interfaces_demo__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o
 libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o
+libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c.o
 libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o
 libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/build.make
 libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -262,7 +294,7 @@ libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_id
 libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbase_interfaces_demo__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libbase_interfaces_demo__rosidl_generator_c.so: CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libbase_interfaces_demo__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libbase_interfaces_demo__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,6 +320,11 @@ CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.h
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__struct.h
 CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__type_support.h
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.c
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/distance__functions.h
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/distance__struct.h
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/detail/distance__type_support.h
+CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/base_interfaces_demo/srv/distance.h
 	cd /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/east/ros2-learning-space/ws01_plumbing/src/base_interfaces_demo /home/east/ros2-learning-space/ws01_plumbing/src/base_interfaces_demo /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo /home/east/ros2-learning-space/ws01_plumbing/build/base_interfaces_demo/CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/depend
 

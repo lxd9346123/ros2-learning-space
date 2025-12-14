@@ -1,0 +1,2 @@
+[0.025s] Invoking command in '/home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names': /usr/bin/cmake --build /home/east/ros2-learning-space/ws01_plumbing/build/cpp05_names -- -j18 -l18
+[0.084s] [100%] Built target demo01_names
